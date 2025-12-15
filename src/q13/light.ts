@@ -1,6 +1,6 @@
-const light_color = String(process.argv[2]);
+const light = String(process.argv[2]);
 
-switch (light_color.toLocaleUpperCase()) {
+switch (light.toLocaleUpperCase()) {
 
   case "RED":
     console.log("Stop");

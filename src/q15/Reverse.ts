@@ -1,9 +1,9 @@
-const lp8 = String(process.argv[2]);
+const text_ori = String(process.argv[2]);
 
 let reversed = "";
-for(let i = lp8.length - 1; i >= 0; i--){
+for(let i = text_ori.length - 1; i >= 0; i--){
 
-    reversed += lp8[i];
+    reversed += text_ori[i];
 
 
 }
