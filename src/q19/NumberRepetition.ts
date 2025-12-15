@@ -1,10 +1,10 @@
-const num_rep = Number(process.argv[2]);
+const num10 = Number(process.argv[2]);
 
-for (let i = 0; i < num_rep; i ++){
+for(let i = 0; i < num10; i++){
   let row = "";
 
-  for(let j = 0; j < num_rep; j ++){
-     row += j+1;
-  }
-  console.log(row);
+    for(let j = 0; j < num10; j++){
+      row += i+1
+    }
+    console.log(row);
 }
