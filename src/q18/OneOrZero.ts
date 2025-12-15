@@ -12,5 +12,5 @@ for (let i = 0; i < one_ze; i++){
     }
   }
   
-  console.log(row);
+  console.log(row.toString());
 }

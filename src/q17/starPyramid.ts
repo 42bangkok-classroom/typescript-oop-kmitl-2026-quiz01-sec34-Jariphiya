@@ -12,5 +12,5 @@ for(let i = 0; i < tri; i ++){
       row += "  ";
     }
   }
-  console.log(row);
+  console.log(row.toString());
 }
