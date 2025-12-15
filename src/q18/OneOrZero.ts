@@ -5,10 +5,10 @@ for (let i = 0; i < one_ze; i++){
 
   for(let j = 0; j < one_ze; j++){
     if(i % 2 === 0){
-      row += "1 "
+      row += "1"
     }
     else{
-      row += "0 ";
+      row += "0";
     }
   }
   

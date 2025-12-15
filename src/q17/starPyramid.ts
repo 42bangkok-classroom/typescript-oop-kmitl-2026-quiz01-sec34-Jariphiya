@@ -9,7 +9,7 @@ for(let i = 0; i < tri; i ++){
       row += "*";
     }
     else{
-      row += "  ";
+      row += " ";
     }
   }
   console.log(row.toString());
